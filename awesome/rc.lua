@@ -646,5 +646,6 @@ end)
 
 -- Autostart Applications
 awful.util.spawn_with_shell("~/scripts/monitor_hotplug.sh")
+awful.util.spawn_with_shell("~/scripts/connect_keyboard.sh")
 awful.util.spawn_with_shell("/usr/bin/syncthing serve --no-browser --logfile=default")
 awful.util.spawn_with_shell("xscreensaver -no-splash")
